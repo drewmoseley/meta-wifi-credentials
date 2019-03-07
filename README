@@ -19,7 +19,13 @@ Table of Contents
 I. Adding the meta-wifi-credentials layer to your build
 =================================================
 
-Run 'bitbake-layers add-layer meta-wifi-credentials'
+Run 'bitbake-layers add-layer meta-wifi-credentials/<configuration>'
+
+where <configuration> is one of the following:
+* sysvinit
+* systemd-networkd
+* networkmanager
+* connman
 
 II. Misc
 ========
