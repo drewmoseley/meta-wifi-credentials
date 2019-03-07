@@ -1,0 +1,32 @@
+This README file contains information on the contents of the meta-wifi-credentials layer.
+
+Please see the corresponding sections below for details.
+
+Dependencies
+============
+
+  URI: git://git.openembedded.org/openembedded-core
+  branch: thud
+
+
+Table of Contents
+=================
+
+  I. Adding the meta-wifi-credentials layer to your build
+ II. Misc
+
+
+I. Adding the meta-wifi-credentials layer to your build
+=================================================
+
+Run 'bitbake-layers add-layer meta-wifi-credentials'
+
+II. Misc
+========
+
+This layer contains demo recipes used at SCALE 17 to show how to add WiFi
+credentials and network management utilities in OpenEmbedded builds.
+
+Note that WiFi passwords are stored directly in this repo which is visible
+publicly on github.com so this should not be used directly but rather serve
+as a guide for how to setup a private layer for yourself.
