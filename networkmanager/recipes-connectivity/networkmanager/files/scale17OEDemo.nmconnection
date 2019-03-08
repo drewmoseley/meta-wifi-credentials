@@ -1,0 +1,10 @@
+[connection]
+id=scale17OEDemo
+type=wifi
+
+[wifi]
+ssid=scale17OEDemo
+
+[wifi-security]
+key-mgmt=wpa-psk
+psk=monkey123
