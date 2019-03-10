@@ -1,6 +1,6 @@
 FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
 
-SRC_URI += " file://scale17OEDemo.config"
+SRC_URI += "file://scale17OEDemo.config"
 
 do_install_append() {
 	install -d ${D}/var/lib/${PN}

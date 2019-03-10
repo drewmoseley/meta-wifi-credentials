@@ -1,10 +1,10 @@
 FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
 
-PACKAGECONFIG_append = "networkd resolved"
+PACKAGECONFIG_append = " networkd resolved "
 
-SRC_URI += " file://wlan.network"
+SRC_URI += "file://wlan.network"
 
-FILES_${PN} += " ${sysconfdir}/systemd/network/wlan.network"
+FILES_${PN} += "${sysconfdir}/systemd/network/wlan.network"
 
 do_install_append() {
     install -d ${D}${sysconfdir}/systemd/network
