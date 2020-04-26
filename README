@@ -32,6 +32,9 @@ II. Misc
 
 This layer contains demo recipes used at SCALE 17 to show how to add WiFi
 credentials and network management utilities in OpenEmbedded builds.
+The presentation slides are available at
+https://www.slideshare.net/MenderOTA/configuring-wifi-in-open-embedded-builds
+and the talk can be found at https://www.youtube.com/watch?v=JP8Vu3PuJPc&t=125m0s.
 
 Note that WiFi passwords are stored directly in this repo which is visible
 publicly on github.com so this should not be used directly but rather serve
